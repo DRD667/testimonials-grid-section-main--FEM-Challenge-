@@ -59,10 +59,12 @@ body {
 .profile {
   display: flex;
   gap: 1em;
+  align-items: center;
 }
 
 .profile-picture img {
   border-radius: 50%;
+  height: 2.2rem;
 }
 
 .profile-data {
@@ -85,6 +87,7 @@ header {
 
 article {
   opacity: 0.7;
+  line-height: 1.4;
 }
 
 .card1 {
